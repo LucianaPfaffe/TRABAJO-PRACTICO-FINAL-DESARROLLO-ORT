@@ -50,7 +50,7 @@ align-items: center;
 }
 
 header{
-  height: 800px;
+  height: 760px;
   max-width: 1320px;
   min-width: 1200px;
   margin: 0 auto;
@@ -68,8 +68,6 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  position: relative;
 }
 
 h1 {

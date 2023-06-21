@@ -1,0 +1,381 @@
+:root{
+  --verdeMain: #2b5632;
+  --rosaMain: #e38993;
+  --verdeDark: #323d37;
+  --rosaLite: #e9babe;
+  --verdeLite: #88b7a7;
+  --marron:#41280a;
+
+}
+*{
+  box-sizing: border-box;
+  font-family: 'Marcellus', serif;
+  overflow-x: hidden;
+}
+
+/*nav y header*/
+
+ul{
+  display: flex;
+  
+}
+li{
+  list-style: none;
+  margin: 0px 80px 0px 0px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+li a:hover {
+  color: var(--verdeMain);
+}
+nav{
+
+display: flex;
+justify-content: space-between;
+padding: 0px 70px 0px 0px;
+align-items: center;
+}
+.hoja{
+  width: 100px;
+  overflow-y: hidden;
+}
+.logo{
+  width: 120px;
+  cursor: pointer;
+}
+select {
+  appearance: none;
+  padding: 8px;
+  width: 80px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: var(--rosaLite);
+  color: white;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: #aaa;
+}
+
+select:focus {
+  outline: none;
+}
+header{
+  height: 800px;
+  max-width: 1230px;
+  margin: 0 auto;
+  background-image:  url(./Imagenes/coffemain3.jpg);
+  background-size: cover;
+  
+}
+.separador{
+  width: 200px;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  overflow-y: hidden;
+
+}
+h1:hover{
+  color: var(--verdeMain);
+}
+.principal h3{
+  width: 60%;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  opacity: 80%;
+}
+.shop{
+  background-color: transparent;
+  width: 200px;
+  border: 2px solid white; 
+  padding: 20px 20px; 
+  cursor: pointer;
+  margin-top: 30px;
+  color: white;
+  overflow-y: hidden;
+}
+.shop:hover{
+  background-color: var(--rosaMain);
+  border: none;
+}
+
+
+
+/*segunda seccion */
+
+.icono{
+  width: 45px;
+}
+.cafe-venta{
+  width: 100%
+}
+
+#cafe{
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.contenedor-cafe-2{
+  width: 100%;
+}
+.contenedor-cafe-titulo{
+  display: flex;
+  align-items: center;
+}
+.contenedor-cafe{
+  margin: 10px 0px 10px 30px;
+}
+.contenedor-cafe-subtitulo p{
+font-size: 13px;
+color: gray;
+}
+
+/* seccion productos */
+
+#productos{
+  margin-bottom: 150px;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.productos{
+  background-image: url(./Imagenes/productos2.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ color: white;
+ margin: 0 auto;
+ padding: 20px 0px 40px 0px;
+ margin-top: 70px;
+ height: 400px;
+}
+.productos p{
+  width: 50%;
+  opacity: 60%;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.productos h2{
+  font-size: 45px;
+}
+
+.separador{
+width: 300px
+}
+.productos-muestra{
+display: flex;
+flex-direction: row;
+}
+.muestras{
+width: 300px;
+}
+.productos-muestra-contenedor{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.productos-muestra-contenedor h4{
+font-size: 20px;
+font-weight: bold;
+
+}
+.productos-muestra-contenedor p{
+color: grey;
+}
+.shop-2{
+  background-color: transparent;
+  width: 100px;
+  border: 2px solid var(--rosaMain);
+  padding: 5px 5px; 
+  cursor: pointer;
+  margin-top: 10px;
+  color: var(--verdeMain);
+}
+.shop-2:hover{
+  background-color: var(--rosaMain);
+}
+
+/* menu */
+
+#menu{
+
+display: flex;
+flex-direction: column;
+background-image: url(./Imagenes/backgroundmenu.jpg);
+max-width: 1230px;
+  margin: 0 auto;
+
+
+}
+.menu-titulo{
+  background-image: url(./Imagenes/fondo-menu.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu-titulo h3{
+  font-size: 50px;
+  margin-left: 60px;
+  color:var(--verdeMain);
+  -webkit-text-stroke: 0.4px var(--verdeDark);
+ 
+}
+.menu-cafe{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+.menu-cafe-1, .menu-cafe-2  {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin: 0px 140px 0px 200px;
+}
+.menu-cafe-1 p:nth-child(3){
+  color: var(--verdeMain);
+  opacity: 0.87;
+  font-size: 14px;
+  font-style: italic;
+}
+.menu-cafe-2 p:nth-child(3){
+  color: var(--verdeMain);
+  opacity: 0.87;
+  font-size: 14px;
+  font-style: italic;
+}
+.menu-acotacion p{
+  font-size: 12px;
+  font-style: italic;
+  color: grey;
+  display: flex;
+ margin: 40px 80px 10px 0px;
+ justify-content: flex-end;
+}
+.menu-cafe-comida, .menu-cafe-bebidas{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.cafe-menu-imagen{
+  width: 300px;
+  opacity: 0.7;
+  
+}
+.cafe-menu-imagen:hover{
+  opacity: 1;
+}
+.cafe-menu-imagenes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  
+  
+}
+
+/* nosotros*/
+#nosotros{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.nosotros-titulo{
+  display: flex;
+  align-items: center;
+}
+.nosotros-hoja{
+  width: 100px;
+}
+.nosotros-titulo h3{
+  font-size: 50px;
+  color: var(--verdeMain);
+  margin-bottom: 50px;
+}
+
+.nosotros-texto{
+  width: 80%;
+  margin: 0 auto;
+}
+.nosotros-imagen, .nosotros-imagen-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nosotros-1, .nosotros-2, .nosotros-3{
+  width: 400px;
+  margin: 0px 10px 0px 10px;
+  margin-top: 30px;
+}
+.nosotros-1:hover, .nosotros-2:hover, .nosotros-3:hover{
+  opacity: 0.6;
+}
+
+/* seccion contacto*/
+
+#contacto{
+  max-width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contacto h3{
+ margin-top: 150px;
+ font-size: 30px;
+}
+.contacto-logo{
+  width: 25px;
+}
+.contacto-ubicacion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contacto-ubicacion-detalle{
+  display: flex;
+  align-items: center;
+}
+.contacto-ubicacion-detalle p{
+  color: grey;
+  font-style: italic;
+  margin-left: 25px;
+  font-size: 13px;
+}
+
+.contacto-ubicacion-detalle p a{
+  color: var(--rosaMain);
+}

@@ -54,6 +54,7 @@ header{
   max-width: 1320px;
   min-width: 1200px;
   margin: 0 auto;
+  overflow-y: hidden;
   background-image:  url(./Imagenes/coffemain3.jpg);
   background-size: cover;
   

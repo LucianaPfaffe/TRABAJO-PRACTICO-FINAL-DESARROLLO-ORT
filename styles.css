@@ -86,6 +86,8 @@ h1:hover{
   font-size: 16px;
   font-weight: 100;
   opacity: 0.8;
+  overflow-x: hidden;
+  
 }
 .shop{
   background-color: transparent;
@@ -122,7 +124,7 @@ h1:hover{
   margin: 0 auto;
 }
 .contenedor-cafe-2{
-  width: 90%;
+  width: 100%;
 }
 .contenedor-cafe-titulo{
   width: 90%;
@@ -208,32 +210,7 @@ font-size: 16px;
   background-color: var(--rosaMain);
 }
 
-.mas{
-  display: flex;
-  justify-content: flex-end;
-  margin: 70px 20px 70px 20px;
-}
 
-.mas button{
-  background-color: var(--rosaMain);
-  width: 200px;
-  border: 2px solid white; 
-  padding: 20px 20px; 
-  cursor: pointer;
-  margin-top: 30px;
-  overflow-y: hidden;
-}
-
-.mas button:hover{
-  background-color: transparent;
-  border: 2px solid var(--rosaMain); 
-}
-
-.mas a {
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-}
 
 
 
@@ -310,23 +287,19 @@ margin: 0 auto;
   justify-content: center;
   font-size: 30px;
 }
-.cafe-menu-imagen{
-  width: 320px;
-  opacity: 0.7;
-  
-}
-.cafe-menu-imagen:hover{
-  opacity: 1;
-}
-.cafe-menu-imagenes{
+
+.menu-qr{
+  width: 100%;
+ padding-top: 40px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-width: 100%;
-  
-  
 }
+.menu-qr p:nth-child(2){
+  font-style: oblique;
+  color: var(--verdeMain);
+}
+
 
 /* nosotros*/
 #nosotros{
@@ -352,7 +325,7 @@ width: 100%;
 }
 
 .nosotros-texto{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 .nosotros-imagen, .nosotros-imagen-2{
@@ -403,6 +376,12 @@ width: 100%;
   font-style: italic;
   margin-left: 25px;
   font-size: 13px;
+}
+.detalles{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .contacto-ubicacion-detalle p a{
